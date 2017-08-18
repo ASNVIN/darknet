@@ -16,7 +16,7 @@ convnet/
 decaf/
 submission/
 cfg/
-darknet
+# darknet "the file name that include this will all be ignored"
 .fuse*
 
 # OS Generated #
@@ -25,3 +25,10 @@ ehthumbs.db
 Icon?
 Thumbs.db
 *.swp
+
+# windows & vs
+build/darknet/Debug/
+build/darknet/x64/
+build/darknet/bad.list
+*.sdf
+*.opensdf
